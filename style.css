@@ -4,3 +4,31 @@ body {
     font-family: 'Signika Negative', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+::selection {
+    color: #fff;
+    background: #3763f4;
+    text-shadow: none;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+:root {
+    --ref-gray-100: #f5f6f8 !important;
+    --ref-gray-300: #dee2e6 !important;
+    --ref-gray-600: #4e5d78 !important;
+    --ref-gray-700: #495057 !important;
+    --ref-border-radius: 1rem !important;
+    --ref-input-padding: 0.6rem 1rem !important;
+    --ref-btn-padding: 0.6rem 2rem !important;
+    --ref-btn-border-radius: 2rem !important;
+}  
+:root {
+    --ref-gray-100: #f5f6f8 !important;
+    --ref-gray-300: #dee2e6 !important;
+    --ref-gray-600: #4e5d78 !important;
+    --ref-gray-700: #495057 !important;
+    --ref-border-radius: 1rem !important;
+    --ref-input-padding: 0.6rem 1rem !important;
+    --ref-btn-padding: 0.6rem 2rem !important;
+    --ref-btn-border-radius: 2rem !important;
+}  
